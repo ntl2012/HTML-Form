@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>HTML Form</title>
+        <style>
+            *{
+                font-family: 'Gill Sans';
+            }
+            .main{
+                /* background-color: #9D927EB2; */
+                background-size: 600px 800px;
+                margin-top: 100px;
+            }
+            .place{
+                display: block;
+                margin: auto;
+            }
+            .id input{
+                display: block;
+                padding-top: 10px;
+                /* padding-right: 110px; */
+                margin-top: 50px;
+                margin-bottom: 50px;
+                border-radius: 20px;
+                background: #F9F6F7;
+                border: 1px solid #000000;
+                border-radius: 20px;
+                width: 590px;
+                height: 64px;
+            }
+            .id label{
+                margin-left: 20px;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 43px;
+            }
+            .border{
+               /* margin: 0 auto; */
+               margin-left: 500px;
+               margin-right: 500px;
+               padding: 80px;
+               height: 800px;
+               width: 600px;
+               /* width: 300px; */
+               background: #9D927EB2;
+               border: 0px solid #333;
+            }
+            .submit{
+                cursor: pointer;
+                background: #D28F3F;
+                border: 1px solid #000000;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 80px;
+                padding: 10px 55px;
+                color: white;
+                display: block;
+                margin: auto;
+                text-align: center;
+                margin-top: 120px;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 43px;
+            }
+            .text{
+                text-align: center;
+                margin-bottom: 50px;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 58px;
+            }
+        </style>
+
+    </head>
+    <body class="main">
+        <header>
+
+        </header>
+        <section class="place">
+            <div class="border">
+                <form class="id">
+                    <h1 class="text"> HTML Forms </h1>
+                    <label for="name"> First Name: </label>
+                    <input type="text" name="name" id="name">
+                    <label for="surname"> Surname: </label>
+                    <input type="text" name="surname" id="surname">
+                    <button id="submit" class="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
